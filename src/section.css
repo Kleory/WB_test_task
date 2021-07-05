@@ -23,16 +23,25 @@
   margin-bottom: 5px;
 }
 
-.section__pages-wrapper a {
+.section__pages-wrapper .section__pages a {
   display: block;
   color: #5068a5;
   font-size: 0.875rem;
   line-height: 1.25rem;
+  cursor: pointer;
 }
 
-.section__pages .active {
+.section__pages-wrapper .section__pages a:hover {
+  color: #ff00aa;
+}
+
+.section__pages-wrapper .section__pages .active {
   color: #ff00aa;
   border-bottom: 1px solid #ff00aa;
+}
+
+.section__pages .active:hover {
+  text-decoration: none;
 }
 
 .container {

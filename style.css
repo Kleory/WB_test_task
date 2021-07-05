@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: "Rouble";
+  src: url(./assets/fonts/rouble.woff);
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url(./assets/fonts/Lato-Regular.woff);
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  background-color: #f4f5f8;
+}
+
+header {
+  background-color: #fff;
+  width: 100%;
+}
+
+.wrapper-header {
+  padding: 18px 40px;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.wrapper-content {
+  padding: 27px 39px 86px 38px;
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  font-family: "Lato";
+  font-weight: 600;
+  font-size: 1.875rem;
+}
+
+@media (max-width: 1199px) {
+  h2 {
+    font-size: 1.125rem;
+  }
+
+  .wrapper-content {
+    padding: 29px 16px 0px 16px;
+  }
+}
+
+@media (max-width: 320px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  .wrapper-content {
+    padding-bottom: 33px;
+  }
+}

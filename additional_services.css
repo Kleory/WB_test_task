@@ -1,0 +1,251 @@
+.additional-services {
+  padding: 48px 0 0 0;
+  font-family: "Lato";
+}
+
+.additional-services__text {
+  padding-top: 8px;
+  font-size: 0.875rem;
+}
+
+.additional-services .additional-services__row-style {
+  border-radius: 8px;
+  margin-top: 24px;
+  box-shadow: 0px 10px 50px rgba(24, 34, 70, 0.1);
+  background-color: #fff;
+  padding: 0;
+  margin-right: 0;
+  margin-left: 0;
+  overflow: hidden;
+}
+
+.additional-services .row > div {
+  padding: 0;
+}
+
+.additional-services__image {
+  min-height: 320px;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.additional-services__image img {
+  object-fit: cover;
+  width: auto;
+  height: 100%;
+}
+
+.additional-services__content-wrapper {
+  height: 100%;
+  padding: 30px 0 30px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.additional-services__content {
+  padding-bottom: 16px;
+}
+
+.additional-services__content_header {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.additional-services__content_text {
+  padding-top: 16px;
+  font-size: 0.875rem;
+}
+
+.additional-services__content__block {
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 16px 20px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.additional-services__content__block_icon {
+  width: 24px;
+  margin-right: 12px;
+}
+
+.additional-services__content__block_text {
+  font-size: 0.875rem;
+}
+
+.additional-services__price-wrapper {
+  padding: 52px 5px 0;
+}
+
+.additional-services__price-row {
+  margin: 0;
+}
+
+.additional-services__price-row div {
+  text-align: center;
+}
+
+.additional-services__old-price {
+  color: #5068a5;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: line-through;
+}
+
+.additional-services__new-price {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 8px 0;
+}
+
+.additional-services__time {
+  color: #333333;
+  font-size: 0.875rem;
+}
+
+.additional-services__button {
+  font-size: 0.875rem;
+  padding: 10px;
+  max-width: 210px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.additional-services__order {
+  color: #fff;
+  background-color: #5068a5;
+  border: none;
+  margin: 24px 0 16px 0;
+}
+
+.additional-services__order:hover {
+  /* background-color: #405895; */
+  background-color: #5573b0;
+}
+
+.additional-services__details {
+  color: #5068a5;
+  background-color: #fff;
+  border: 1px solid #d8dce9;
+}
+
+.additional-services__details:hover {
+  background-color: #fcfcfc;
+}
+
+@media (max-width: 1199px) {
+  .additional-services__content-wrapper {
+    padding: 16px 16px 8px 16px;
+  }
+
+  .additional-services__content {
+    padding-bottom: 24px;
+  }
+
+  .additional-services__content__block {
+    align-items: start;
+    padding: 8px;
+  }
+
+  .additional-services__content__block_icon {
+    margin-right: 8px;
+  }
+
+  .additional-services__content_text,
+  .additional-services__content__block_text {
+    font-size: 0.75rem;
+  }
+
+  .additional-services__image {
+    height: 320px;
+  }
+
+  .additional-services__image img {
+    object-fit: cover;
+    width: 100%;
+    /* height: auto; */
+  }
+
+  .row.additional-services__price-row div:last-child {
+    padding-left: 10px;
+  }
+
+  .additional-services__new-price {
+    margin: 0;
+  }
+
+  .additional-services__order {
+    margin: 0;
+  }
+
+  .additional-services__button {
+    max-width: 180px;
+  }
+
+  .additional-services__price-wrapper {
+    padding: 16px;
+  }
+
+  .additional-services__price-row div {
+    text-align: left;
+  }
+}
+
+@media (max-width: 765px) {
+  .additional-services {
+    padding-top: 16px;
+  }
+
+  .additional-services__content {
+    padding-bottom: 16px;
+  }
+
+  .additional-services__content_header {
+    font-size: 1rem;
+  }
+
+  .additional-services__content_text {
+    padding-top: 8px;
+  }
+
+  .additional-services__text {
+    padding-top: 0px;
+  }
+
+  .additional-services__image {
+    min-height: 190px;
+    height: 190px;
+  }
+
+  .row.additional-services__price-row div:last-child {
+    padding-left: 0px;
+  }
+
+  .additional-services__button {
+    max-width: 256px;
+  }
+
+  .additional-services__order {
+    margin: 8px 0;
+  }
+
+  .additional-services .additional-services__row-style {
+    margin-top: 16px;
+  }
+
+  .additional-services__price-wrapper {
+    padding: 8px 0 16px 0;
+  }
+
+  .additional-services__price-row div {
+    text-align: center;
+  }
+
+  .additional-services__old-price,
+  .additional-services__new-price {
+    font-size: 1.125rem;
+  }
+}

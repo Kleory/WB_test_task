@@ -115,7 +115,7 @@ h2 {
 @media (max-width: 767px) {
   .navigation {
     width: 100%;
-    padding: 16px 0;
+    margin: 16px 0;
   }
 
   .navigation div {
@@ -124,12 +124,13 @@ h2 {
 
   .navigation select {
     display: block;
+    font-size: 0.75rem;
   }
 }
 
 @media (max-width: 320px) {
   h1 {
-    font-size: 1.75rem;
+    font-size: 1.25rem;
   }
 
   h2 {

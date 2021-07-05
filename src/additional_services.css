@@ -122,7 +122,6 @@
 }
 
 .additional-services__order:hover {
-  /* background-color: #405895; */
   background-color: #5573b0;
 }
 
@@ -166,7 +165,6 @@
   .additional-services__image img {
     object-fit: cover;
     width: 100%;
-    /* height: auto; */
   }
 
   .row.additional-services__price-row div:last-child {
